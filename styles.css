@@ -1,0 +1,394 @@
+/* Variables et styles de base */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #2980b9;
+    --accent-color: #f1c40f;
+    --light-color: #f8f9fa;
+    --dark-color: #1a1a2e;
+    --text-color: #333;
+    --light-text: #ffffff;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --border-radius: 8px;
+    --spacing: 1.5rem;
+}
+
+/* Reset et styles de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-color);
+    transition: var(--transition);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    line-height: 1.3;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing);
+}
+
+/* Header and Navigation */
+header {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 1rem 0;
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: var(--light-text);
+    flex: 1;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 0.5rem;
+}
+
+nav a {
+    color: var(--light-text);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    font-weight: 500;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--accent-color);
+}
+
+/* Active navigation link */
+nav a.active {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/* Responsive navigation */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin-bottom: 1rem;
+    }
+    
+    nav {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+    }
+    
+    nav ul {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    
+    nav li {
+        margin: 0 0.3rem;
+    }
+    
+    nav a {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    color: var(--light-text);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: rotate(30deg);
+}
+
+/* Sections */
+section {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.section-number {
+    color: var(--accent-color);
+    margin-right: 0.5rem;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.active {
+    display: flex !important;
+}
+
+/* Page d'accueil */
+#home {
+    text-align: center;
+    
+    background: linear-gradient(135deg, rgba(41, 128, 185, 0.1) 0%, rgba(241, 196, 15, 0.1) 100%);
+}
+
+.welcome-content {
+   
+    margin: 0 auto;
+}
+
+.welcome-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    line-height: 1.2;
+}
+
+.intro-text {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+    color: var(--text-color);
+   
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+/* Grille des sections du guide */
+.guide-sections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 3rem 0;
+}
+
+.guide-card {
+    background: var(--light-text);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    text-align: center;
+    border-top: 4px solid var(--secondary-color);
+}
+
+.guide-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.guide-icon {
+    width: 70px;
+    height: 70px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 1.8rem;
+    color: var(--light-text);
+    transition: var(--transition);
+}
+
+.guide-card:hover .guide-icon {
+    background: var(--accent-color);
+    color: var(--primary-color);
+    transform: scale(1.1) rotate(5deg);
+}
+
+.guide-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.guide-card p {
+    color: var(--text-color);
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .guide-sections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .welcome-content h2 {
+        font-size: 2.2rem;
+    }
+    
+    .intro-text {
+        font-size: 1.1rem;
+    }
+    
+    .guide-sections {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .guide-card {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .section-header h2 {
+        font-size: 1.8rem;
+    }
+    
+    .welcome-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    nav a {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+    }
+}

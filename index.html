@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide de rédaction d'un article scientifique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <h1 class="header-title"></h1>
+            <div class="header-actions">
+                <button id="about-btn" class="circle-btn" aria-label="À propos">
+                    <i class="fas fa-info"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Modal À propos -->
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-users"></i> À propos</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- Supervisor Card -->
+                <div class="supervisors-section">
+                    <h3>Encadrant du projet</h3>
+                    <div class="supervisor-card">
+                        <div class="supervisor">
+                            <div class="member-avatar"><i class="fas fa-chalkboard-teacher"></i></div>
+                            <div class="member-info">
+                                <h5>Pr. Abdessamih MAHMOUD</h5>
+                                <p>Professeur encadrant - ESI</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Groups -->
+                <div class="team-section">
+                    <h3>Équipe du projet</h3>
+                    <div class="groups-container">
+                        <!-- Groupe 1 -->
+                        <div class="group-card">
+                            <div class="group-header">
+                                <h4>Groupe 1</h4>
+                            </div>
+                            <div class="group-members">
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Mohamed EL KHHALFAOUY</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Youssef LAGHLID</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Groupe 2 -->
+                        <div class="group-card">
+                            <div class="group-header">
+                                <h4>Groupe 2</h4>
+                            </div>
+                            <div class="group-members">
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Abdellah BRAOUEL</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Samira ERROUIDI</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Majda TAHRA</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Groupe 3 -->
+                        <div class="group-card">
+                            <div class="group-header">
+                                <h4>Groupe 3</h4>
+                            </div>
+                            <div class="group-members">
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Hiba AFRISSE</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Sara ABOULFARAJ</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                                <div class="team-member">
+                                    <div class="member-avatar"><i class="fas fa-user"></i></div>
+                                    <div class="member-info">
+                                        <h5>Hanane OUADDOU</h5>
+                                        <p>Membre du groupe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <main>
+                      
+            <!-- Modal for Part 2: Élaborer la méthodologie -->
+            <div id="part2-modal" class="content-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2><i class="fas fa-flask"></i> Élaborer la méthodologie</h2>
+                        <button class="close-modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-grid">
+                            <div class="content-card">
+                                <h3><i class="fas fa-clipboard-check"></i> Conception de la recherche</h3>
+                                <ul>
+                                    <li>Choisir entre recherche qualitative et quantitative</li>
+                                    <li>Définir la population et l'échantillon</li>
+                                    <li>Sélectionner les méthodes de collecte de données</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="content-card">
+                                <h3><i class="fas fa-tools"></i> Outils et techniques</h3>
+                                <ul>
+                                    <li>Questionnaires et enquêtes</li>
+                                    <li>Entretiens et observations</li>
+                                    <li>Analyse de contenu</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="content-card">
+                                <h3><i class="fas fa-chart-line"></i> Analyse des données</h3>
+                                <ul>
+                                    <li>Préparation et nettoyage des données</li>
+                                    <li>Méthodes d'analyse statistique</li>
+                                    <li>Interprétation des résultats</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Part 3: Rédiger l'article -->
+            <div id="part3-modal" class="content-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2><i class="fas fa-pen-fancy"></i> Rédiger l'article</h2>
+                        <button class="close-modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-grid">
+                            <div class="content-card">
+                                <h3><i class="fas fa-file-alt"></i> Structure IMRAD</h3>
+                                <ul>
+                                    <li>Introduction</li>
+                                    <li>Matériel et méthodes</li>
+                                    <li>Résultats</li>
+                                    <li>Discussion</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="content-card">
+                                <h3><i class="fas fa-paint-brush"></i> Style et clarté</h3>
+                                <ul>
+                                    <li>Langue claire et précise</li>
+                                    <li>Structure des paragraphes</li>
+                                    <li>Utilisation des temps verbaux</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="content-card">
+                                <h3><i class="fas fa-quote-right"></i> Citations et références</h3>
+                                <ul>
+                                    <li>Style de citation (APA, MLA, etc.)</li>
+                                    <li>Gestion des références</li>
+                                    <li>Éviter le plagiat</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Part 4: Révision et publication -->
+            <div id="part4-modal" class="content-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2><i class="fas fa-check-double"></i> Révision et publication</h2>
+                        <button class="close-modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="content-grid">
+                            <div class="content-card">
+                                <h3><i class="fas fa-edit"></i> Révision du contenu</h3>
+                                <ul>
+                                    <li>Relecture approfondie</li>
+                                    <li>Correction des erreurs</li>
+                                    <li>Amélioration de la clarté</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="content-card">
+                                <h3><i class="fas fa-comments"></i> Révision par les pairs</h3>
+                                <ul>
+                                    <li>Choisir les bons réviseurs</li>
+                                    <li>Gérer les commentaires</li>
+                                    <li>Répondre aux critiques</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="content-card">
+                                <h3><i class="fas fa-upload"></i> Soumission</h3>
+                                <ul>
+                                    <li>Choisir la bonne revue</li>
+                                    <li>Préparer la lettre de soumission</li>
+                                    <li>Suivre le processus de révision</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page d'accueil -->
+        <section id="home" class="active">
+            <div class="container">
+                <br>
+                <div class="welcome-content">
+                    <h2>Bienvenue dans le guide de rédaction scientifique</h2>
+                    <p class="intro-text">Ce guide interactif vous accompagne à travers les différentes étapes de la rédaction d'un article scientifique, de la préparation de la recherche jusqu'à la publication.</p>
+                    
+                    <div class="guide-sections">
+                        <div class="guide-card" data-modal="part1-modal">
+                            <div class="guide-icon"><i class="fas fa-search"></i></div>
+                            <h3>1. Préparer la recherche</h3>
+                            <p>Choisir et définir le sujet, construire la problématique, formuler les questions et hypothèses de recherche, réaliser l'analyse documentaire et le benchmarking.</p>
+                        </div>
+                        
+                        <div class="guide-card" data-modal="part2-modal">
+                            <div class="guide-icon"><i class="fas fa-flask"></i></div>
+                            <h3>2. Élaborer la méthodologie</h3>
+                            <p>Concevoir votre protocole de recherche et choisir les méthodes d'analyse appropriées.</p>
+                        </div>
+                        
+                        <div class="guide-card" data-modal="part3-modal">
+                            <div class="guide-icon"><i class="fas fa-pen-fancy"></i></div>
+                            <h3>3. Rédiger l'article</h3>
+                            <p>Structurer et rédiger chaque section de votre article de manière claire et précise.</p>
+                        </div>
+                        
+                        <div class="guide-card" data-modal="part4-modal">
+                            <div class="guide-icon"><i class="fas fa-check-double"></i></div>
+                            <h3>4. Révision et publication</h3>
+                            <p>Relire, corriger et soumettre votre article à une revue scientifique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                        </ul>
+                    </div>
+                    
+                   
+       
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Guide de rédaction scientifique - Mohamed EL KHHALFAOUY</p>
+        </div>
+    </footer>
+
+    <!-- Include all modals -->
+    <!-- Modals Container -->
+    <div id="modals-container">
+        <!-- Part 1: Préparer la recherche -->
+        <div id="part1-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-search"></i> Préparer la recherche</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <div class="content-card clickable-card" data-modal="choisir-sujet-modal">
+                            <h3><i class="fas fa-bullseye"></i> Choisir et Définir le Sujet de Recherche</h3>
+                            <ul>
+                                <li>Choisir un sujet précis et réalisable</li>
+                                <li>Délimiter le champ d'étude</li>
+                                <li>Vérifier l'originalité du sujet</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="construire-problematique-modal">
+                            <h3><i class="fas fa-exclamation-circle"></i> Construire la Problématique de Recherche</h3>
+                            <ul>
+                                <li>Identifier le problème clé</li>
+                                <li>Analyser le contexte et les enjeux</li>
+                                <li>Formuler clairement la problématique</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="formuler-questions-modal">
+                            <h3><i class="fas fa-question-circle"></i> Formuler les Questions de Recherche</h3>
+                            <ul>
+                                <li>Formuler des questions de recherche pertinentes</li>
+                                <li>Assurer la cohérence avec la problématique</li>
+                                <li>Vérifier la faisabilité des questions</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="definir-objectifs-modal">
+                            <h3><i class="fas fa-bullseye"></i> Définir les Objectifs de Recherche</h3>
+                            <ul>
+                                <li>Définir les objectifs généraux</li>
+                                <li>Établir les objectifs spécifiques</li>
+                                <li>Aligner les objectifs avec les questions</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="formuler-hypotheses-modal">
+                            <h3><i class="fas fa-lightbulb"></i> Formuler les Hypothèses de Recherche</h3>
+                            <ul>
+                                <li>Formuler des hypothèses testables</li>
+                                <li>Assurer la cohérence avec les objectifs</li>
+                                <li>Préciser les variables impliquées</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="analyse-documentaire-modal">
+                            <h3><i class="fas fa-file-alt"></i> Réaliser l'Analyse Documentaire</h3>
+                            <ul>
+                                <li>Identifier les documents pertinents</li>
+                                <li>Analyser le contenu des documents</li>
+                                <li>Extraire les informations pertinentes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="gerer-citations-modal">
+                            <h3><i class="fas fa-quote-right"></i> Gérer les Citations et Références Bibliographiques</h3>
+                            <ul>
+                                <li>Identifier les sources à citer</li>
+                                <li>Appliquer un style de citation cohérent</li>
+                                <li>Créer une bibliographie complète</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="realiser-benchmarking-modal">
+                            <h3><i class="fas fa-chart-bar"></i> Réaliser le Benchmarking</h3>
+                            <ul>
+                                <li>Identifier les références pertinentes</li>
+                                <li>Analyser les bonnes pratiques</li>
+                                <li>Comparer les approches existantes</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="content-card clickable-card" data-modal="revue-litterature-modal">
+                            <h3><i class="fas fa-book"></i> Revue de littérature</h3>
+                            <ul>
+                                <li>Identifier les sources pertinentes</li>
+                                <li>Analyser les travaux existants</li>
+                                <li>Identifier les lacunes dans la recherche</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Revue de Littérature Modal -->
+        <div id="revue-litterature-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-book"></i> Revue de Littérature</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Realiser_Revue_Litterature.txt -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Choisir et Définir le Sujet de Recherche Modal -->
+        <div id="choisir-sujet-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-bullseye"></i> Choisir et définir le sujet de recherche</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Choisir_Definir_Sujet_Recherche.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Construire la Problématique de Recherche Modal -->
+        <div id="construire-problematique-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-exclamation-circle"></i> Construire la Problématique de Recherche</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Construire_Problematique_Recherche.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formuler les Questions de Recherche Modal -->
+        <div id="formuler-questions-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-question-circle"></i> Formuler les Questions de Recherche</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Formuler_Questions_Recherche.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Définir les Objectifs de Recherche Modal -->
+        <div id="definir-objectifs-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-bullseye"></i> Définir les Objectifs de Recherche</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Definir_Objectifs_Recherche.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formuler les Hypothèses de Recherche Modal -->
+        <div id="formuler-hypotheses-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-lightbulb"></i> Formuler les Hypothèses de Recherche</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Formuler_Hypotheses_Recherche.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Réaliser l'Analyse Documentaire Modal -->
+        <div id="analyse-documentaire-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-file-alt"></i> Réaliser l'Analyse Documentaire</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Realiser_Analyse_Documentaire.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gérer les Citations et Références Bibliographiques Modal -->
+        <div id="gerer-citations-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-quote-right"></i> Gérer les Citations et Références Bibliographiques</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Gerer_Citations_References_Bibliographiques.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Réaliser le Benchmarking Modal -->
+        <div id="realiser-benchmarking-modal" class="content-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2><i class="fas fa-chart-bar"></i> Réaliser le Benchmarking</h2>
+                    <button class="close-modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="content-grid">
+                        <!-- Content will be loaded dynamically from P1/Realiser_Benchmarking.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
