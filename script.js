@@ -25,15 +25,15 @@ function initModals() {
     
     // Mapping of modal IDs to P1 HTML file paths
     const modalFileMap = {
-        'choisir-sujet-modal': './P1/Choisir_Definir_Sujet_Recherche.html',
-        'construire-problematique-modal': './P1/Construire_Problematique_Recherche.html',
-        'formuler-questions-modal': './P1/Formuler_Questions_Recherche.html',
-        'definir-objectifs-modal': './P1/Definir_Objectifs_Recherche.html',
-        'formuler-hypotheses-modal': './P1/Formuler_Hypotheses_Recherche.html',
-        'analyse-documentaire-modal': './P1/Realiser_Analyse_Documentaire.html',
-        'gerer-citations-modal': './P1/Gerer_Citations_References_Bibliographiques.html',
-        'realiser-benchmarking-modal': './P1/Realiser_Benchmarking.html',
-        'revue-litterature-modal': './P1/Realiser_Revue_Litterature.html'
+        'choisir-sujet-modal': './Choisir_Definir_Sujet_Recherche.html',
+        'construire-problematique-modal': './Construire_Problematique_Recherche.html',
+        'formuler-questions-modal': './Formuler_Questions_Recherche.html',
+        'definir-objectifs-modal': './Definir_Objectifs_Recherche.html',
+        'formuler-hypotheses-modal': './Formuler_Hypotheses_Recherche.html',
+        'analyse-documentaire-modal': './Realiser_Analyse_Documentaire.html',
+        'gerer-citations-modal': './Gerer_Citations_References_Bibliographiques.html',
+        'realiser-benchmarking-modal': './Realiser_Benchmarking.html',
+        'revue-litterature-modal': './Realiser_Revue_Litterature.html'
     };
     
     // Function to load modal content from P1 directory
