@@ -1,0 +1,42 @@
+<div class="content-card">
+    <p>La problématique de recherche est le cœur de votre travail scientifique. Elle définit clairement le problème que vous souhaitez résoudre et justifie la pertinence de votre recherche.</p>
+    
+    <h3><i class="fas fa-bullseye"></i> Éléments d'une bonne problématique :</h3>
+    <ul>
+        <li><strong>Clarté</strong> : La problématique doit être formulée de manière précise et compréhensible</li>
+        <li><strong>Pertinence</strong> : Elle doit s'inscrire dans un contexte académique ou pratique actuel</li>
+        <li><strong>Spécificité</strong> : Elle doit cibler un problème particulier et non être trop générale</li>
+        <li><strong>Faisabilité</strong> : Elle doit pouvoir être abordée avec les méthodes de recherche disponibles</li>
+    </ul>
+    
+    <h3><i class="fas fa-cogs"></i> Processus de construction :</h3>
+    <div class="content-card">
+        <h4><i class="fas fa-search"></i> Identification du problème</h4>
+        <ul>
+            <li>Analyser le contexte général</li>
+            <li>Identifier les contradictions ou lacunes</li>
+            <li>Comprendre les enjeux implicites</li>
+            <li>Formuler une question problématisante</li>
+        </ul>
+    </div>
+    
+    <div class="content-card">
+        <h4><i class="fas fa-link"></i> Lien avec le sujet</h4>
+        <ul>
+            <li>Assurer la cohérence avec le sujet choisi</li>
+            <li>Définir les limites du problème</li>
+            <li>Identifier les variables impliquées</li>
+            <li>Positionner le problème dans le champ disciplinaire</li>
+        </ul>
+    </div>
+    
+    <h3><i class="fas fa-lightbulb"></i> Bonnes pratiques :</h3>
+    <p>Pour construire une problématique efficace, suivez ces conseils :</p>
+    <ol>
+        <li>Commencez par une analyse approfondie du contexte</li>
+        <li>Identifiez clairement ce qui pose problème</li>
+        <li>Formulez la problématique comme une question ouverte</li>
+        <li>Justifiez la pertinence de votre problème</li>
+        <li>Vérifiez que votre problématique est originale</li>
+    </ol>
+</div>

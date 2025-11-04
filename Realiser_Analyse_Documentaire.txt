@@ -1,0 +1,41 @@
+<div class="content-card">
+    <p>L'analyse documentaire est une méthode de recherche qui consiste à examiner des documents écrits pour extraire des informations pertinentes. Elle permet de recueillir des données secondaires et de construire une base solide pour votre recherche.</p>
+    
+    <h3><i class="fas fa-list"></i> Types de documents à analyser :</h3>
+    <ul>
+        <li><strong>Documents académiques</strong> : Articles scientifiques, thèses, mémoires</li>
+        <li><strong>Documents institutionnels</strong> : Rapports, statistiques, lois</li>
+        <li><strong>Documents médiatiques</strong> : Articles de presse, interviews</li>
+        <li><strong>Documents professionnels</strong> : Études de marché, rapports d'entreprise</li>
+    </ul>
+    
+    <h3><i class="fas fa-tasks"></i> Étapes de l'analyse documentaire :</h3>
+    <div class="content-card">
+        <h4><i class="fas fa-search"></i> Identification et collecte</h4>
+        <ul>
+            <li>Définir les critères de pertinence</li>
+            <li>Utiliser des bases de données appropriées</li>
+            <li>Sélectionner les documents de qualité</li>
+            <li>Organiser les documents collectés</li>
+        </ul>
+    </div>
+    
+    <div class="content-card">
+        <h4><i class="fas fa-eye"></i> Lecture et analyse</h4>
+        <ul>
+            <li>Lecture critique et approfondie</li>
+            <li>Identification des thèmes principaux</li>
+            <li>Extraction des données pertinentes</li>
+            <li>Comparaison des points de vue</li>
+        </ul>
+    </div>
+    
+    <h3><i class="fas fa-cogs"></i> Techniques d'analyse :</h3>
+    <p>Utilisez ces techniques pour une analyse efficace :</p>
+    <ol>
+        <li><strong>Analyse thématique</strong> : Identifier et organiser les thèmes récurrents</li>
+        <li><strong>Analyse de contenu</strong> : Étudier la fréquence et la signification des éléments</li>
+        <li><strong>Analyse comparative</strong> : Comparer les positions de différents auteurs</li>
+        <li><strong>Analyse critique</strong> : Évaluer la validité et la fiabilité des sources</li>
+    </ol>
+</div>

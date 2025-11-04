@@ -1,0 +1,40 @@
+<div class="content-card">
+    <p>Les hypothèses de recherche sont des propositions provisoires qui tentent d'expliquer un phénomène. Elles servent de base pour guider votre recherche et structurer votre analyse.</p>
+    
+    <h3><i class="fas fa-list"></i> Caractéristiques des bonnes hypothèses :</h3>
+    <ul>
+        <li><strong>Testabilité</strong> : Doivent pouvoir être vérifiées ou réfutées</li>
+        <li><strong>Clarté</strong> : Doivent être formulées de manière précise</li>
+        <li><strong>Spécificité</strong> : Doivent concerner un aspect particulier</li>
+        <li><strong>Fondement</strong> : Doivent s'appuyer sur des connaissances existantes</li>
+    </ul>
+    
+    <h3><i class="fas fa-tasks"></i> Types d'hypothèses :</h3>
+    <div class="content-card">
+        <h4><i class="fas fa-arrow-right"></i> Hypothèses descriptives</h4>
+        <ul>
+            <li>Décrivent l'état d'un phénomène</li>
+            <li>Présentent les caractéristiques d'un groupe</li>
+            <li>Exemples : "Les étudiants utilisent principalement les réseaux sociaux pour communiquer"</li>
+        </ul>
+    </div>
+    
+    <div class="content-card">
+        <h4><i class="fas fa-exchange-alt"></i> Hypothèses relationnelles</h4>
+        <ul>
+            <li>Proposent un lien entre deux variables</li>
+            <li>Peuvent être de corrélation ou de causalité</li>
+            <li>Exemples : "Plus le temps d'étude augmente, plus les résultats s'améliorent"</li>
+        </ul>
+    </div>
+    
+    <h3><i class="fas fa-cogs"></i> Processus de formulation :</h3>
+    <p>Suivez ces étapes pour formuler des hypothèses de recherche efficaces :</p>
+    <ol>
+        <li>Identifiez les variables pertinentes à partir de votre problématique</li>
+        <li>Examinez la littérature pour trouver des relations existantes</li>
+        <li>Formulez des propositions claires sur les relations attendues</li>
+        <li>Exprimez les hypothèses sous forme de phrases testables</li>
+        <li>Vérifiez que les hypothèses sont cohérentes avec vos objectifs</li>
+    </ol>
+</div>

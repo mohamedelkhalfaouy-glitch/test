@@ -1,0 +1,39 @@
+<div class="content-card">
+    <p>
+        Le choix du sujet constitue la première étape essentielle du processus de recherche.
+        Il oriente l’ensemble du travail scientifique et conditionne la pertinence des résultats obtenus
+        (Tremblay & Perrier, 2006).
+        Selon Karsenti et Savoie-Zajc (2000), un sujet bien choisi doit être clair,
+        motivant et réalisable dans les conditions matérielles et temporelles du chercheur.
+    </p>
+
+    <h3>🔹 Critères de sélection du sujet</h3>
+
+    <p>🎯 <strong>Intérêt personnel :</strong> Le sujet doit susciter la curiosité et l’engagement intellectuel du chercheur,
+        car la motivation est un facteur déterminant de réussite
+        (Mammeri, s.d.; Scribbr, s.d.).
+    </p>
+
+    <p>💡 <strong>Utilité :</strong> Le thème doit avoir une utilité personnelle, académique ou professionnelle,
+        et contribuer à enrichir la réflexion dans le domaine choisi
+        (Scribbr, s.d.).
+    </p>
+
+    <p>⚙️ <strong>Faisabilité technique :</strong> Il est essentiel de s’assurer que le sujet est réalisable dans le temps imparti
+        et avec les ressources disponibles, notamment en termes de documentation et d’accès aux données
+        (Mammeri, s.d.; Meziani, s.d.).
+    </p>
+
+    <p>📚 <strong>Pertinence disciplinaire :</strong> Le sujet doit s’inscrire dans le champ disciplinaire du chercheur
+        et viser une contribution significative à la connaissance scientifique
+        (Karsenti & Savoie-Zajc, 2000; Tremblay & Perrier, 2006).
+    </p>
+
+    <h3>🔎 Conseil pratique</h3>
+    <p>
+        Avant de formuler l’objet d’étude, il est fortement recommandé de réaliser une analyse documentaire préliminaire.
+        Celle-ci permet d’examiner les travaux antérieurs, d’éviter la redondance et de préciser les limites du sujet
+        (Tremblay & Perrier, 2006;
+        Mansour et al., 2010).
+    </p>
+</div>
